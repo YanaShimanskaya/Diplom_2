@@ -6,10 +6,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.example.AppConfig.*;
-
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 import static org.apache.http.HttpStatus.SC_OK;
+import static org.example.AppConfig.*;
 import static org.example.UserController.createNewUser;
 import static org.example.UserController.deleteUser;
 import static org.hamcrest.Matchers.*;

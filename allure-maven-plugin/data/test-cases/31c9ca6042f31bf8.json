@@ -1,58 +1,68 @@
 {
-  "uid" : "31c9ca6042f31bf8",
-  "name" : "Check valid Order creation",
-  "fullName" : "CreateOrderTest.createValidOrderTest",
-  "historyId" : "caee8051c77dbb7ca5aa5fd75f9cc88d",
-  "time" : {
-    "start" : 1699884360410,
-    "stop" : 1699884361514,
-    "duration" : 1104
+  "uid": "31c9ca6042f31bf8",
+  "name": "Check valid Order creation",
+  "fullName": "CreateOrderTest.createValidOrderTest",
+  "historyId": "caee8051c77dbb7ca5aa5fd75f9cc88d",
+  "time": {
+    "start": 1699884360410,
+    "stop": 1699884361514,
+    "duration": 1104
   },
-  "description" : "Valid user Auth and ingredients should return 200 and body",
-  "descriptionHtml" : "<p>Valid user Auth and ingredients should return 200 and body</p>\n",
-  "status" : "passed",
-  "flaky" : false,
-  "newFailed" : false,
-  "beforeStages" : [ ],
-  "afterStages" : [ ],
-  "labels" : [ {
-    "name" : "package",
-    "value" : ""
-  }, {
-    "name" : "testClass",
-    "value" : "CreateOrderTest"
-  }, {
-    "name" : "testMethod",
-    "value" : "createValidOrderTest"
-  }, {
-    "name" : "suite",
-    "value" : "CreateOrderTest"
-  }, {
-    "name" : "host",
-    "value" : "yshimanskaya"
-  }, {
-    "name" : "thread",
-    "value" : "2588@yshimanskaya.main(1)"
-  }, {
-    "name" : "framework",
-    "value" : "junit4"
-  }, {
-    "name" : "language",
-    "value" : "java"
-  }, {
-    "name" : "resultFormat",
-    "value" : "allure2"
-  } ],
-  "parameters" : [ ],
-  "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
-  "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ ],
-    "tags" : [ ]
+  "description": "Valid user Auth and ingredients should return 200 and body",
+  "descriptionHtml": "<p>Valid user Auth and ingredients should return 200 and body</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "CreateOrderTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "createValidOrderTest"
+    },
+    {
+      "name": "suite",
+      "value": "CreateOrderTest"
+    },
+    {
+      "name": "host",
+      "value": "yshimanskaya"
+    },
+    {
+      "name": "thread",
+      "value": "2588@yshimanskaya.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
   },
-  "source" : "31c9ca6042f31bf8.json",
-  "parameterValues" : [ ]
+  "source": "31c9ca6042f31bf8.json",
+  "parameterValues": []
 }

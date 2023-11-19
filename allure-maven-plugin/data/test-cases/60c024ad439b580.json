@@ -1,58 +1,68 @@
 {
-  "uid" : "60c024ad439b580",
-  "name" : "Check status code 401 for name",
-  "fullName" : "LoginUserTest.invalidLoginTest",
-  "historyId" : "c401c1b9c4eecb6b0ad9fb299619ced0",
-  "time" : {
-    "start" : 1699884372246,
-    "stop" : 1699884374008,
-    "duration" : 1762
+  "uid": "60c024ad439b580",
+  "name": "Check status code 401 for name",
+  "fullName": "LoginUserTest.invalidLoginTest",
+  "historyId": "c401c1b9c4eecb6b0ad9fb299619ced0",
+  "time": {
+    "start": 1699884372246,
+    "stop": 1699884374008,
+    "duration": 1762
   },
-  "description" : "Invalid user name should return 401 status code",
-  "descriptionHtml" : "<p>Invalid user name should return 401 status code</p>\n",
-  "status" : "passed",
-  "flaky" : false,
-  "newFailed" : false,
-  "beforeStages" : [ ],
-  "afterStages" : [ ],
-  "labels" : [ {
-    "name" : "package",
-    "value" : ""
-  }, {
-    "name" : "testClass",
-    "value" : "LoginUserTest"
-  }, {
-    "name" : "testMethod",
-    "value" : "invalidLoginTest"
-  }, {
-    "name" : "suite",
-    "value" : "LoginUserTest"
-  }, {
-    "name" : "host",
-    "value" : "yshimanskaya"
-  }, {
-    "name" : "thread",
-    "value" : "2588@yshimanskaya.main(1)"
-  }, {
-    "name" : "framework",
-    "value" : "junit4"
-  }, {
-    "name" : "language",
-    "value" : "java"
-  }, {
-    "name" : "resultFormat",
-    "value" : "allure2"
-  } ],
-  "parameters" : [ ],
-  "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
-  "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ ],
-    "tags" : [ ]
+  "description": "Invalid user name should return 401 status code",
+  "descriptionHtml": "<p>Invalid user name should return 401 status code</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "LoginUserTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "invalidLoginTest"
+    },
+    {
+      "name": "suite",
+      "value": "LoginUserTest"
+    },
+    {
+      "name": "host",
+      "value": "yshimanskaya"
+    },
+    {
+      "name": "thread",
+      "value": "2588@yshimanskaya.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
   },
-  "source" : "60c024ad439b580.json",
-  "parameterValues" : [ ]
+  "source": "60c024ad439b580.json",
+  "parameterValues": []
 }

@@ -1,12 +1,16 @@
 package org.example;
 
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
-import static org.example.AppConfig.*;
 import static io.restassured.RestAssured.given;
+import static org.example.AppConfig.*;
 
 public class OrderController {
+
+    @Step("Создание заказа")
     public static Response newOrder(CreateOrder createOrder) {
+
         Response response =
                 given()
                         .relaxedHTTPSValidation().log().all()
@@ -17,6 +21,8 @@ public class OrderController {
         return response;
     }
 
+
+    @Step("Получение заказа авторизованного пользователя")
     public static Response getOrder(LoginUser loginUser) {
         Response response =
                 given()
@@ -26,7 +32,7 @@ public class OrderController {
                         .get(ORDERS_PATH);
         return response;
     }
-
+    @Step("Получение заказа")
     public static Response getOrder(String token, boolean useAuth) {
         Response response;
         if (useAuth) {

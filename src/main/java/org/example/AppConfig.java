@@ -11,9 +11,9 @@ public class AppConfig {
     public final static String HEADER_CONTENT_TYPE_NAME = "Content-type";
     public final static String CONTENT_TYPE = "application/json";
     public static Faker faker = new Faker();
-    public final static String EMAIL = "yana123@io.oi";
-    public final static String PASSWORD = "qwerty123";
-    public final static String NAME = "Yana";
+    public final static String EMAIL =  faker.internet().emailAddress();
+    public final static String PASSWORD = faker.internet().password();
+    public final static String NAME = faker.name().username();
     public final static CreateUser CREATE_USER = new CreateUser(EMAIL,PASSWORD,NAME);
     public final static LoginUser LOGIN_USER = new LoginUser(EMAIL,PASSWORD);
     public final static CreateOrder CREATE_ORDER = new CreateOrder(new String[]{"61c0c5a71d1f82001bdaaa6d","61c0c5a71d1f82001bdaaa6c"});

@@ -1,15 +1,15 @@
-import org.example.CreateUser;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.example.CreateUser;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import static org.example.AppConfig.*;
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
+import static org.example.AppConfig.*;
 import static org.example.UserController.createNewUser;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -21,19 +21,20 @@ public class CreateUserParamTest {
         this.invalidUserCredentials = invalidUserCredentials;
     }
 
+    @Parameterized.Parameters
+    public static Object[][] parametersUserInvalidVariable() {
+        return new Object[][]{
+                {new CreateUser("", PASSWORD, NAME)},
+                {new CreateUser(EMAIL, "", NAME)},
+                {new CreateUser(EMAIL, PASSWORD, "")},
+        };
+    }
+
     @Before
-    public void setUp(){
+    public void setUp() {
         RestAssured.baseURI = APP_URL;
     }
 
-    @Parameterized.Parameters
-    public static Object[][] parametersUserInvalidVariable() {
-        return new Object[][] {
-                {new CreateUser("",PASSWORD,NAME)},
-                {new CreateUser(EMAIL,"",NAME)},
-                {new CreateUser(EMAIL,PASSWORD,"")},
-        };
-    }
     @Test
     @DisplayName("Check invalid user credentials registration")
     @Description("Invalid user credentials registration should return 403 and message")

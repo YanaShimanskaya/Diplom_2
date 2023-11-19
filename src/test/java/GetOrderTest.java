@@ -18,6 +18,11 @@ import static org.hamcrest.Matchers.notNullValue;
 public class GetOrderTest {
     private static String token;
 
+    @AfterClass
+    public static void cleanUp() {
+        deleteUser(token);
+    }
+
     @Before
     public void setUp() {
         RestAssured.baseURI = APP_URL;
@@ -41,15 +46,10 @@ public class GetOrderTest {
     @DisplayName("Check invalid user login and message")
     @Description("Invalid user login should return 401 status code and message")
     public void getInvalidUserTest() {
-        Response response = OrderController.getOrder(token,false);
+        Response response = OrderController.getOrder(token, false);
         response.then().assertThat().body("success", equalTo(false))
                 .and().body("message", equalTo("You should be authorised"))
                 .and()
                 .statusCode(SC_UNAUTHORIZED);
-    }
-
-    @AfterClass
-    public static void cleanUp() {
-        deleteUser(token);
     }
 }

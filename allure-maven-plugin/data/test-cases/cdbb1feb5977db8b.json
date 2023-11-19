@@ -1,0 +1,68 @@
+{
+  "uid": "cdbb1feb5977db8b",
+  "name": "Check new user registration",
+  "fullName": "CreateUserTest.newUserRegistrationTest",
+  "historyId": "a45f6c509ce836fa01182756527bf5a0",
+  "time": {
+    "start": 1699884364784,
+    "stop": 1699884366163,
+    "duration": 1379
+  },
+  "description": "New user registration should return 200 and body",
+  "descriptionHtml": "<p>New user registration should return 200 and body</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "CreateUserTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "newUserRegistrationTest"
+    },
+    {
+      "name": "suite",
+      "value": "CreateUserTest"
+    },
+    {
+      "name": "host",
+      "value": "yshimanskaya"
+    },
+    {
+      "name": "thread",
+      "value": "2588@yshimanskaya.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "cdbb1feb5977db8b.json",
+  "parameterValues": []
+}

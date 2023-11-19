@@ -1,0 +1,68 @@
+{
+  "uid": "a37b4835723813cd",
+  "name": "Check invalid user credentials registration",
+  "fullName": "CreateUserParamTest.createInvalidUserCredentialsTest[2]",
+  "historyId": "4ffa0bbb2dceb3ee7d0a87a221950ef",
+  "time": {
+    "start": 1699884362741,
+    "stop": 1699884363111,
+    "duration": 370
+  },
+  "description": "Invalid user credentials registration should return 403 and message",
+  "descriptionHtml": "<p>Invalid user credentials registration should return 403 and message</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "CreateUserParamTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "createInvalidUserCredentialsTest[2]"
+    },
+    {
+      "name": "suite",
+      "value": "CreateUserParamTest"
+    },
+    {
+      "name": "host",
+      "value": "yshimanskaya"
+    },
+    {
+      "name": "thread",
+      "value": "2588@yshimanskaya.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "a37b4835723813cd.json",
+  "parameterValues": []
+}

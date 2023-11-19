@@ -1,0 +1,211 @@
+[
+  {
+    "uid": "d8e7217209e452ea",
+    "name": "Check valid user login",
+    "time": {
+      "start": 1699884366546,
+      "stop": 1699884368165,
+      "duration": 1619
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "70026c88ae1ff54d",
+    "name": "Check Order creation with user Auth and without ingredients",
+    "time": {
+      "start": 1699884357682,
+      "stop": 1699884358989,
+      "duration": 1307
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cbb68c1edbc017b3",
+    "name": "Check Order creation without user Auth and ingredients",
+    "time": {
+      "start": 1699884360042,
+      "stop": 1699884360404,
+      "duration": 362
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a37b4835723813cd",
+    "name": "Check invalid user credentials registration",
+    "time": {
+      "start": 1699884362741,
+      "stop": 1699884363111,
+      "duration": 370
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "35cfef167286d74d",
+    "name": "Check invalid user credentials registration",
+    "time": {
+      "start": 1699884362041,
+      "stop": 1699884362412,
+      "duration": 371
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "19a36b184059072f",
+    "name": "Check Order creation without user Auth and invalid ingredients",
+    "time": {
+      "start": 1699884357206,
+      "stop": 1699884357677,
+      "duration": 471
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d4e99acab61e39ee",
+    "name": "Check changing User Email without Auth",
+    "time": {
+      "start": 1699884355007,
+      "stop": 1699884357197,
+      "duration": 2190
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "ca0711933f633ebf",
+    "name": "Check invalid user login and message",
+    "time": {
+      "start": 1699884366169,
+      "stop": 1699884366542,
+      "duration": 373
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7a3a309c31b5821f",
+    "name": "Check status code 200",
+    "time": {
+      "start": 1699884368608,
+      "stop": 1699884370453,
+      "duration": 1845
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9e9475026b886dda",
+    "name": "Check status code 401 for password",
+    "time": {
+      "start": 1699884370458,
+      "stop": 1699884372240,
+      "duration": 1782
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7acb8a8aaac9137e",
+    "name": "Check Order creation with user Auth and invalid ingredients",
+    "time": {
+      "start": 1699884358993,
+      "stop": 1699884360038,
+      "duration": 1045
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cdbb1feb5977db8b",
+    "name": "Check new user registration",
+    "time": {
+      "start": 1699884364784,
+      "stop": 1699884366163,
+      "duration": 1379
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "31c9ca6042f31bf8",
+    "name": "Check valid Order creation",
+    "time": {
+      "start": 1699884360410,
+      "stop": 1699884361514,
+      "duration": 1104
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "4e18547f42808e8c",
+    "name": "Check changing User name without Auth",
+    "time": {
+      "start": 1699884350147,
+      "stop": 1699884352417,
+      "duration": 2270
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "73ac4e3fb815a6c3",
+    "name": "Check changing User email with Auth",
+    "time": {
+      "start": 1699884352433,
+      "stop": 1699884355002,
+      "duration": 2569
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "21200b1e4c8d3347",
+    "name": "Check same user registration",
+    "time": {
+      "start": 1699884363117,
+      "stop": 1699884364780,
+      "duration": 1663
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b8caf85d725a9d12",
+    "name": "Check invalid user credentials registration",
+    "time": {
+      "start": 1699884362417,
+      "stop": 1699884362736,
+      "duration": 319
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e66d9f4b6f44c24c",
+    "name": "Check changing User name with Auth",
+    "time": {
+      "start": 1699884337879,
+      "stop": 1699884349969,
+      "duration": 12090
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "60c024ad439b580",
+    "name": "Check status code 401 for name",
+    "time": {
+      "start": 1699884372246,
+      "stop": 1699884374008,
+      "duration": 1762
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

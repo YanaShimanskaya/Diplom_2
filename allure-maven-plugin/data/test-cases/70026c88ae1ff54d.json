@@ -1,0 +1,68 @@
+{
+  "uid": "70026c88ae1ff54d",
+  "name": "Check Order creation with user Auth and without ingredients",
+  "fullName": "CreateOrderTest.createOrderWithAuthValidIngredientsTest",
+  "historyId": "57c3771ae937cc105a7aa146995caf75",
+  "time": {
+    "start": 1699884357682,
+    "stop": 1699884358989,
+    "duration": 1307
+  },
+  "description": "Invalid ingredients and valid user Auth should return 400 and message",
+  "descriptionHtml": "<p>Invalid ingredients and valid user Auth should return 400 and message</p>\n",
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "package",
+      "value": ""
+    },
+    {
+      "name": "testClass",
+      "value": "CreateOrderTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "createOrderWithAuthValidIngredientsTest"
+    },
+    {
+      "name": "suite",
+      "value": "CreateOrderTest"
+    },
+    {
+      "name": "host",
+      "value": "yshimanskaya"
+    },
+    {
+      "name": "thread",
+      "value": "2588@yshimanskaya.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "junit4"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "70026c88ae1ff54d.json",
+  "parameterValues": []
+}
